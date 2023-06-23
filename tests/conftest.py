@@ -3,5 +3,5 @@ from selene import browser
 
 
 @pytest.fixture()
-def brouser_settings():
+def browser_settings():
     browser.config.base_url = 'https://demoqa.com/automation-practice-form'
